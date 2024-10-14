@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "test:e2e": "cypress run",
     "test:unit": "vitest",
@@ -26,7 +26,8 @@
   "devDependencies": {
     "@capacitor/cli": "6.1.2",
     "@vitejs/plugin-legacy": "^5.0.0",
-    "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-vue": "^4.6.2",
+    "@vue/cli-service": "5.0.8",
     "@vue/test-utils": "^2.3.0",
     "cypress": "^13.5.0",
     "eslint": "^8.35.0",
